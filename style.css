@@ -3,9 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 #penny{
-    width: 300px;
-    height: 175px;
+    width: 600px;
+    height: 375px;
 }
 #logo {
     width: 60px;
@@ -20,7 +21,7 @@
 }
 ul {
     color: #E5E7EB;
-    font-size: 14px;
+    font-size: 18px;
     list-style: none;
     display: flex;
     gap: 15px;
@@ -40,7 +41,7 @@ ul {
     width: max-content;
     flex: 0;
     padding: 5px 10px;
-    background-color: #3882F6;
+    background-color: red;
     border: none;
     border-radius:5px;
     color: #E5E7EB;
@@ -51,6 +52,7 @@ ul {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 10px;
+    
 }
 h1 {
     font-size: 48px;
@@ -60,4 +62,28 @@ h1 {
 .text p {
     font-size: 18px;
     color: #E5E7EB;
+}
+.information {
+    text-align: center;
+}
+.information {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.icons {
+    display: flex;
+    flex: 1;
+    padding: 40px;
+    gap: 30px;
+}
+.icons img {
+    width: 200px;
+    height: 150px;
+    border: red solid 2px;
+    border-radius: 5px;
 }
