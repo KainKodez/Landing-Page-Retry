@@ -87,3 +87,23 @@ h1 {
     border: red solid 2px;
     border-radius: 5px;
 }
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin: 10px 0px 50px 0px;
+    
+}
+#author {
+    margin-left: 500px;
+    font-weight: bolder;
+}
+#quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
